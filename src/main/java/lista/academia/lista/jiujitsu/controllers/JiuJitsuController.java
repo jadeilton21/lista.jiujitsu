@@ -24,6 +24,10 @@ public class JiuJitsuController {
 
     @GetMapping
     public ResponseEntity<List<JiuJitsu>> getJiuJitsu(){
+        List<JiuJitsu> jiuJitsus = this.jiuJitsuService.getJiuJitsuFromLibriary();
+
+        return ResponseEntity.ok().body(jiuJitsus);
+
 
     }
 }
