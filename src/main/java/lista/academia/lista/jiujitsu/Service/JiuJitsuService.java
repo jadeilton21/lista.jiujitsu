@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class JiuJitsuService {
 
     @Autowired
-    privar final JiuJitsuCliente jiuJitsuCliente;
+    public final JiuJitsuCliente jiuJitsuCliente;
 
 
 
