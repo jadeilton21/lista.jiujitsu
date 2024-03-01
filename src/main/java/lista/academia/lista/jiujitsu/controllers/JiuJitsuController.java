@@ -3,6 +3,7 @@ package lista.academia.lista.jiujitsu.controllers;
 
 import lista.academia.lista.jiujitsu.Service.JiuJitsuService;
 import lista.academia.lista.jiujitsu.doMain.JiuJitsu;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +15,11 @@ import java.util.List;
 @RequestMapping("/api/jiujitsu")
 public class JiuJitsuController {
 
-
+    @Autowired
     private final JiuJitsuService jiuJitsuService;
 
-    public JiuJitsuController(JiuJitsuService jiuJitsuService){
+    public JiuJitsuController(JiuJitsuService jiuJitsuService, JiuJitsuService jiuJitsuService1){
+        this.jiuJitsuService = jiuJitsuService1;
         jiuJitsuService =jiuJitsuService;
     }
 

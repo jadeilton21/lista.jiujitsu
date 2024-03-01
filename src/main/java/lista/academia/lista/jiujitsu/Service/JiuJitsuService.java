@@ -16,7 +16,8 @@ public class JiuJitsuService {
 
 
 
-    public JiuJitsuService(JiuJitsuService jiuJitsuService){
+    public JiuJitsuService(JiuJitsuService jiuJitsuService, JiuJitsuCliente jiuJitsuCliente){
+        this.jiuJitsuCliente = jiuJitsuCliente;
         jiuJitsuService = jiuJitsuService;
     }
 
@@ -24,6 +25,6 @@ public class JiuJitsuService {
 
         JiuJitsuListResponse response = this.jiuJitsuCliente.getJiuJitsu();
 
-        return response.getJiuJitsuList();
+        return response.getJiuJitsusList();
     }
 }
