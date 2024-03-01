@@ -1,0 +1,44 @@
+{
+  "academias_jiu_jitsu": [
+    {
+      "nome": "Academia Gracie",
+      "professor": "Carlos Gracie Jr.",
+      "time": "Gracie Barra",
+      "local": "Rua Gracie, 123, Rio de Janeiro",
+      "idade_minima": 12,
+      "mestre": "Helio Gracie"
+    },
+    {
+      "nome": "Nova União Jiu-Jitsu",
+      "professor": "André Pederneiras",
+      "time": "Nova União",
+      "local": "Avenida Jiu-Jitsu, 456, São Paulo",
+      "idade_minima": 10,
+      "mestre": "Robson Moura"
+    },
+    {
+      "nome": "Alliance Jiu-Jitsu",
+      "professor": "Fabio Gurgel",
+      "time": "Alliance",
+      "local": "Travessa Alliance, 789, Brasília",
+      "idade_minima": 8,
+      "mestre": "Romero Jacaré"
+    },
+    {
+      "nome": "Gracie Humaitá",
+      "professor": "Rolker Gracie",
+      "time": "Gracie Humaitá",
+      "local": "Avenida Humaitá, 101, Porto Alegre",
+      "idade_minima": 10,
+      "mestre": "Helio Gracie"
+    },
+    {
+      "nome": "Checkmat Jiu-Jitsu",
+      "professor": "Leo Vieira",
+      "time": "Checkmat",
+      "local": "Rua Checkmat, 543, Belo Horizonte",
+      "idade_minima": 12,
+      "mestre": "Ricardo Vieira"
+    }
+  ]
+}
