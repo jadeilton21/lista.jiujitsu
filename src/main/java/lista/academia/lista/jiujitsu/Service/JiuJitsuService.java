@@ -22,8 +22,8 @@ public class JiuJitsuService {
 
     public List<JiuJitsu> getJiuJitsuFromLibriary() {
 
-        JiuJitsuListResponse response = this.jiuJitsuCliente.getCidade();
+        JiuJitsuListResponse response = this.jiuJitsuCliente.getJiuJitsu();
 
-        return response.getCidadeList();
+        return response.getJiuJitsuList();
     }
 }
