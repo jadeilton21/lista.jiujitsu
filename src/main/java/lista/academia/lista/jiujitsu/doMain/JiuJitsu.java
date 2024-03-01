@@ -10,10 +10,10 @@ public class JiuJitsu {
 
 
     public String professor;
-    public String alunos;
+    public String time;
     public String local;
     public String idadeMinima;
-    public String sexo;
+    public String mestre;
 
 
 
