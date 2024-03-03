@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/api/jiujitsu")
 public class JiuJitsuController {
 
-    @Autowired
+
     private final JiuJitsuService jiuJitsuService;
 
     public JiuJitsuController(JiuJitsuService jiuJitsuService, JiuJitsuService jiuJitsuService1){
