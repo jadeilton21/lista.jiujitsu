@@ -12,7 +12,5 @@ import java.util.List;
 @NoArgsConstructor
 @Data
 public class JiuJitsuListResponse {
-
-
     private List<JiuJitsu> jiuJitsusList;
 }
