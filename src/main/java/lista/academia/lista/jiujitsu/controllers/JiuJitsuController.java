@@ -14,8 +14,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/jiujitsu")
 public class JiuJitsuController {
-
-
     private final JiuJitsuService jiuJitsuService;
 
     public JiuJitsuController(JiuJitsuService jiuJitsuService, JiuJitsuService jiuJitsuService1){
