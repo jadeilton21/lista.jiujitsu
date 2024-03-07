@@ -11,15 +11,11 @@ import java.util.List;
 
 @Service
 public class JiuJitsuService {
-
-
     public final JiuJitsuCliente jiuJitsuCliente;
-
     public JiuJitsuService(JiuJitsuCliente cliente){
         this.jiuJitsuCliente = cliente;
 
     }
-
     public List<JiuJitsu> getJiuJitsuFromLibriary() {
 
         JiuJitsuListResponse response = this.jiuJitsuCliente.getJiuJitsu();
